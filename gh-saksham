@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Saksham Arora's card in your terminal. Works as `gh saksham` and, from Homebrew, as `saksham`.
+# The card is served live from saksham.digital, so it is always current.
+if ! curl -fsS --max-time 8 https://saksham.digital/ 2>/dev/null; then
+  printf '\n  Saksham Arora\n  Data Scientist, Quant Researcher and AI Engineer\n\n  web    https://saksham.digital\n  mail   saksham10arora@gmail.com\n  mcp    https://saksham.digital/mcp\n\n'
+fi
