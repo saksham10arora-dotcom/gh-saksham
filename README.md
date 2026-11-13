@@ -14,4 +14,4 @@ brew install saksham10arora-dotcom/tap/saksham
 saksham
 ```
 
-Other ways in: `curl saksham.digital`, `npx saksham-arora`, `dig TXT saksham.digital`, and an MCP server at `https://saksham.digital/mcp`.
+Other ways in: `curl saksham.digital`, `npx saksham-arora`, `dig +short TXT card.saksham.digital`, and an MCP server at `https://saksham.digital/mcp`.
